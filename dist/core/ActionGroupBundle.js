@@ -8,7 +8,7 @@ class ActionGroupBundle {
         this.shell = new nodes_1.ActionGroupNode();
         this.always = new nodes_1.ActionGroupNode();
         this.current = new nodes_1.ActionGroupNode();
-        this.exist = new nodes_1.ActionGroupNode();
+        this.persist = new nodes_1.ActionGroupNode();
         this.fill = (utils_1.fill);
         this.fill(payload);
     }

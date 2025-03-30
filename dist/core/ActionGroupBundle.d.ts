@@ -5,7 +5,7 @@ export declare class ActionGroupBundle {
     shell: ActionGroupNode;
     always: ActionGroupNode;
     current: ActionGroupNode;
-    exist: ActionGroupNode;
+    persist: ActionGroupNode;
     constructor(payload?: Partial<TActionGroupBundleActionGroupBundle>);
     fill: (this: any, payload?: Partial<TClassProperties<ActionGroupBundle>>) => any;
 }
